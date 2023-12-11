@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 50px;
+}
+
+.arrow {
+    /* background-color: rgb(166, 248, 248); */
+    @apply px-2 py-1 bg-cyan-100 rounded-3xl;
+    /* border-radius: 50%; */
+}
